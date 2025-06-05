@@ -3,5 +3,6 @@ import { CdkpipelineStack } from '../lib/cdkpipeline-stack';
 
 const app = new cdk.App();
 new CdkpipelineStack(app, 'CdkpipelineStack', {
-
 });
+
+app.synth();
